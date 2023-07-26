@@ -308,3 +308,36 @@ footer{
 footer > h6{
     margin: 10px;
 }
+
+@media screen and (max-width: 600px){
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aboutme{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bio > h2 {
+        margin: 20px 0px;
+    }
+    #bio{
+        padding: 0px 64px;
+    }
+    #photo{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    #skills{
+        flex-direction: column;
+    }
+    #tech, #softskills{
+        width:100%
+    }
+    #jobs{
+        grid-auto-flow: unset;
+    }
+}
