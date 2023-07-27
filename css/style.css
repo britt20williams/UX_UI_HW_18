@@ -252,8 +252,15 @@ a.brickText{
     margin-bottom: 0px;
 }
 
-#tech > div, #softskills > ul{
+#tech > div{
     margin: 0px 64px;
+}
+
+#softskills > ul{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 
 #running-start > div, #nsa > div{
@@ -331,13 +338,20 @@ footer > h6{
         margin-left: 0px;
         margin-bottom: 20px;
     }
-    #skills{
+    #skills, #ux_projects{
         flex-direction: column;
     }
-    #tech, #softskills{
+    #tech, #softskills, #running-start, #nsa{
         width:100%
     }
-    #jobs{
+    #jobs, #dev_projects{
         grid-auto-flow: unset;
     }
+    #intro > h2{
+        text-align: center;
+    }
+    #intro{
+        margin-top: 20px;
+    }
+    
 }
