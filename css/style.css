@@ -316,6 +316,56 @@ footer > h6{
     margin: 10px;
 }
 
+/* Case Study Styles */
+.cs-intro-photo{
+    object-fit: scale-down;
+    border-radius: 8px;
+    margin-left: 20px;
+    width: 50%;
+
+}
+.cs-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 64px;
+}
+.cs-section > h2{
+    margin: 30px 0px;
+}
+.description{
+    display: flex;
+    align-items: flex-start;
+}
+.description > div > h3:first-child{
+    margin-top: 0px;
+}
+.divider{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    text-align: center;
+}
+.summary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.summary > div{
+    display: flex;
+    flex-direction: column;
+}
+.summary > div > h6{
+    margin: 0px 5px;
+    font-weight: bold;
+    font-size: 22pt;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.summary > div > ul{
+    padding-right: 5px;
+}
+/* Responsive Web Design Media Queries */
 @media screen and (max-width: 600px){
     #menu {
         display: flex;
