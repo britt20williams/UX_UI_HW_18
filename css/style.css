@@ -403,5 +403,19 @@ footer > h6{
     #intro{
         margin-top: 20px;
     }
+    .description{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .cs-intro-photo{
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .cs-section > h2{
+        text-align: center;
+    }
+    .summary{
+        grid-template-columns: 1fr 1fr;
+    }
     
 }
